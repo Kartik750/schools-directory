@@ -1,0 +1,165 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.schools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.school-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.school-card:hover {
+    transform: translateY(-5px);
+}
+
+.school-card h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.school-card p {
+    margin: 0.5rem 0;
+}
+
+.school-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .school-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .school-card {
+        width: 100%;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.schools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.school-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.school-card:hover {
+    transform: translateY(-5px);
+}
+
+.school-card h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.school-card p {
+    margin: 0.5rem 0;
+}
+
+.school-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.no-schools-message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #666;
+    margin: 2rem 0;
+}
+
+button {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+a{
+    text-decoration: none;
+}
+
+a button {
+    background-color: #28a745;
+    
+}
+
+a button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .school-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .school-card {
+        width: 100%;
+    }
+}
